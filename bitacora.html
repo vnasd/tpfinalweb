@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+  <title>Bitácora</title>
+  <style>
+    body {
+      background-color: #aceafd;
+    }
+
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 1000;
+      color: black; 
+    }
+
+    .card, .article {
+      margin: 10px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 80%; 
+      max-width: 400px; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .button-container a {
+      text-decoration: none;
+    }
+
+    .article img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-container">
+    <h2> 
+      En esta página van a poder ver los bocetos del código.
+    </h2>
+    <div class="card">
+      <a href="boceto/TPBoceto/index.html" class="paper-btn btn-secondary-outline" target="_blank">JUGAR</a>
+    </div>
+    <div class="card">
+      <a href="boceto/Pantallas/PANT/index.html" class="paper-btn btn-secondary-outline" target="_blank">Pantallas</a>
+    </div>
+    <article class="article">
+      <h5 class="article-title">Primeros diagramas de flujo</h5>
+      <p>
+        <img src="img/diagrama.png" class="float-left">
+      </p>
+      <p>
+        <img src="img/diagrama_de_flujo.png" class="float-left">
+      </p>
+    </article>
+    <div class="card">
+      Este trabajo nos llevó mucho tiempo ya que tuvimos varias adversidades con el tema del código y otras que tenían que ver con la vida privada de los dos integrantes. Con mucha ayuda de los profes y mucho trabajo pudimos lograr que funcione nuestro código con la aventura y el juego combinados. ¡Muchas Gracias!
+    </div>
+  </div>
+  <div class="card">
+    <a href="index.html" class="paper-btn btn-danger-outline" >Inicio</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+  <title>Trabajo Práctico Final</title>
+  <style>
+    body {
+      background-color: #fad27b;
+    }
+
+    .page-container {
+      text-align: center;
+      padding: 20px;
+      background-color: #aceafd;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+    }
+
+    .card {
+      margin: 10px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 20rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .button-container a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-container">
+    <h1>Trabajo Práctico Final</h1>
+    <p>Roldan Felipe. 95549/4</p>
+    <p>Napolitan Revay Valentín. 89751/6</p>
+    <h4> 
+        ¡Buenas!<br>
+        Somos Felipe y Valentín, y queremos darles la bienvenida a nuestra página web.
+    </h4>
+    <h5> 
+        En esta página podrán ver el desarrollo de nuestro Trabajo Práctico Final.
+    </h5>
+    <div class="card">
+      <img src="img/gato.png">
+      <div class="card-body">
+        <h4 class="Gato">Gato Con Botas</h4>
+        <h5 class="card-subtitle">Personaje principal de la Aventura.</h5>
+        <p class="card-text">Este gato fue editado a través de Photoshop por los integrantes del grupo.</p>
+        <a href="https://es.wikipedia.org/wiki/El_Gato_con_Botas" class="paper-btn btn-success-outline" target="_blank">Historia del gato</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/guardia.png">
+      <div class="card-body">
+        <h4 class="Guardia">Guardia (enemigo del gato)</h4>
+        <h5 class="card-subtitle">Enemigo de la Aventura.</h5>
+        <p class="card-text">Este guardia fue editado a través de Photoshop por los integrantes del grupo.</p>
+        <a href="historia.html" class="paper-btn btn-secondary-outline">Aventura gráfica</a>
+      </div>
+    </div>
+    <div class="button-container">
+      <a href="juego.html" class="paper-btn btn-secondary-outline">Juego completo</a>
+      <a href="bitacora.html" class="paper-btn btn-secondary-outline">Bitácora</a>
+    </div>
+  </div>
+</body>
+</html>
